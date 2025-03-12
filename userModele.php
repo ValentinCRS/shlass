@@ -1,6 +1,6 @@
 <?php
 
-class User {
+class UserModele {
     public function getAllUser(){
         return ["El primo", "Diego", "Fabrizo"];
     }

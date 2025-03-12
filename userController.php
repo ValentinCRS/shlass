@@ -1,11 +1,11 @@
 <?php
 
-require "user.php";
+require "userModele.php";
 
 
 class userController{
     public function showUser(){
-    $elUser = new User();
+    $elUser = new UserModele();
     $bolls = $elUser-> getAllUser();
     require "userView.phtml";
     }
